@@ -8,7 +8,7 @@
 <body>
   <h1>Programming Language Selector</h1>
   <form id="form">
-    <label><strong>What is your favorite bagel?</strong></label><br>
+    <label><strong>1. What is your favorite bagel?</strong></label><br>
     <label for="plain">Plain bagel</label>
     <input id="plain" type="radio" value="plain" name="bagel" checked><br>
     <label for="everything">Everything bagel</label>
@@ -16,7 +16,7 @@
     <label for="raisin">Raisin bagel</label>
     <input id="raisin" type="radio" value="raisin" name="bagel"><br>
 
-    <label><strong>How challenging do you find programming to be?</strong></label><br>
+    <label><strong>2. How challenging do you find programming to be?</strong></label><br>
     <label for="easy">Easy</label>
     <input id="easy" type="radio" value="easy" name="difficulty" checked><br>
     <label for="moderate">Moderate</label>
@@ -24,7 +24,7 @@
     <label for="hard">Hard</label>
     <input id="hard" type="radio" value="hard" name="difficulty"><br>
 
-    <label><strong>What programming goals do you have?</strong></label><br>
+    <label><strong>3. What programming goals do you have?</strong></label><br>
     <label >
       <input id="software" type="radio" value="software" name="goals" checked>
       To develop software
@@ -40,7 +40,7 @@
 
     <label>
       <strong>
-        Based upon its name alone-which programming language sounds the most appealing to you?
+        4. Based upon its name alone-which programming language sounds the most appealing to you?
       </strong>
     </label><br>
     <label>
@@ -56,7 +56,7 @@
       Python
     </label><br>
 
-    <label><strong>What is your favorite Disney movie?</strong></label><br>
+    <label><strong>5. What is your favorite Disney movie?</strong></label><br>
     <label for="marvel">All the Marvel movies, duh</label>
     <input id="marvel" type="radio" value="marvel" name="movies" checked><br>
     <label for="toy-story">Toy Story, the one where they almost die in the end</label>
@@ -66,6 +66,7 @@
     </label>
     <input id="scarface" type="radio" value="scarface" name="movies"><br>
     <button type="submit">Submit</button>
+    <button type="reset" class="hidden">Reset</button>
   </form>
 
   <div id="output" class="hidden">
